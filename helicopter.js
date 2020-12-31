@@ -8,8 +8,6 @@ class Helicopter {
         World.add(world, this.body);
     }
     display(){
-        rectMode(CENTER);
-        rect(width/2, 200, 20, 20);
         imageMode(CENTER);
         image(this.image, width/2, 200, 200, 100);
     }
