@@ -13,8 +13,6 @@ class Box {
     display() {
       var posX = this.body.position.x;
       var posY = this.body.position.y;  
-      rectMode(CENTER);
-      rect(width/2, 200, 50, 50);
       imageMode(CENTER);
       //image follows position of body
       image(this.image, posX, posY, 50, 50);
